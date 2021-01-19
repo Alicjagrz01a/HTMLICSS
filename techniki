@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TECHNIKI</title>
+    <style>
+        #container {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #logo {
+            background-color: lightseagreen;
+            padding: 10px;
+            height: auto;
+        }
+
+        #nav {
+            float: left;
+            width: 120px;
+            color: white;
+            text-align: center;
+            height: 920px;
+        }
+
+        #content {
+            float: left;
+            width: 600px;
+            padding: 20px;
+            height: 900px;
+        }
+
+        #ad {
+            float: left;
+            width: 200px;
+            height: 920px;
+            position: relative;
+
+        }
+
+        a:visited,
+        a:link,
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 100px;
+        }
+
+        .img2 {
+            flex: content;
+            width: 200px;
+            margin: auto;
+            min-height: 400px;
+            vertical-align: middle;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            right: auto;
+            left: auto;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .a {
+            height: 1100px;
+            background-color: lightseagreen;
+            padding: 10px;
+        }
+
+        #footer {
+            clear: both;
+            background-color: mediumaquamarine;
+            color: black;
+            padding: 20px;
+            margin: 0px auto;
+            width: 960px;
+        }
+    </style>
+</head>
+
+<BODY>
+    <div id="container">
+        <div id="logo">
+            <center><img class="img1" src="PWR.png" style="width:900px; height:190px" /></center>
+        </div>
+        <div class="a" id="nav" style="text-decoration: none white" target="blank"></br></br>
+            <a href="Omnie.html">O mnie<br></a></br>
+            <a href="studia.html">Studia</a></br></br>
+            <a href="protipy.html">Sposoby na koncentracje</br></a></br>
+            Techniki efektywnego uczenia się</br></br>
+            <a href="Bibliografia.html">Spis stron</a>
+        </div>
+    </div>
+    <div id="content">
+        <h1 style="COLOR:#4a995b; text-align:center"> TECHNIKI EFEKTYWNEGO UCZENIA SIĘ </h1></br>
+        <p>
+            <p>
+                <u>a) Mapa myśli –</u> popularna technika, opierająca się na kreatywnym notowaniu i szukaniu powiązań i
+                skojarzeń między danymi hasłami. Szerzej opisaliśmy tę technikę w naszym artykule, który znajduje się
+                tutaj.</br></p>
+            <p>
+                <u>b) Powtarzanie –</u> najprostszy sposób na zapamiętywanie; aby informacje na stałe pozostały w naszym
+                umyśle, musimy przejść przez proces powtarzania – zaraz po zakończeniu nauki, po kilku godzinach, na
+                drugi dzień, trzy dni później, tydzień później, dwa tygodnie później, miesiąc później, trzy miesiące
+                później, pół roku później. Cykliczne odświeżanie informacji pozwoli je utrwalić.</br></p>
+
+            <p><u>c) Szybkie czytanie –</u> usprawnia pracę mózgu, poprawia jego wydajność oraz pozwala na przyswajanie
+                wiadomości w szybkim tempie.</br></p>
+
+            <p><u>d) Tworzenie historii –</u> czyli szukanie skojarzeń pomiędzy przyswajaną wiedzą, a wiedzą, którą już
+                posiadamy lub informacjami sformułowanym w bardziej przystępny dla nas sposób.</br></p>
+
+            <p><u>e) Pałac pamięci –</u> polega na uporządkowaniu w wyobrażonym pomieszczeniu informacji, które chcemy
+                zapamiętać (np. w „szufladzie” przy oknie „znajdziemy” sposoby rozwiązywania równań, a w „szafie” w rogu
+                – wiadomości na temat kombinatoryki). Kolejne informacje na inny lub ten sam temat (jeśli jest obszerny)
+                umieszczamy w kolejnym „pokoju”. Duża liczba pomieszczeń stworzy docelowy pałac pamięci.</br></p>
+
+            <p><u>f) Tworzenie akronimów –</u> przydatny sposób do zapamiętywania dłuższych fraz i zwrotów lub sekwencji
+                wyrazów, które nie tworzą żadnego zdania.</br></p>
+
+            <p><u>g) Metoda pierwszych liter – </u>tutaj z kolei tworzymy logiczne zdanie, w którym każdy wyraz zaczyna
+                się na literę odpowiedniego kolejnego wyrazu, jaki chcemy zapamiętać. Przydatna przy zapamiętywaniu
+                kolejności np. planet w układzie słonecznym.</br></p>
+
+            <p><u>h) Rymowanki, wierszyki, piosenki –</u> popularna i przyjemna metoda zapamiętywania, opierająca się na
+                zmyśle słuchu.</br></p>
+
+            <p><u>i) Spacerowanie w myślach –</u> wyobrażanie sobie wrażeń, jakie towarzyszyłyby w bezpośrednim
+                kontakcie z danym zagadnieniem, które chcemy zapamiętać. Ta technika pozwala zapamiętać bardziej
+                skomplikowane tematy i rozwija wyobraźnię.</br></p>
+
+            <p><u>j) Używanie słów do zapamiętywania cyfr i liczb – </u>może być stosowana do przyswajania haseł i kodów
+                (np. pin); polega na przypisaniu danej cyfrze lub liczbie słowa, które składa się z tylu liter, ile
+                definiuje liczba np. cyfra 6 może być określona słowem „brzuch”.</br></p>
+
+    </div>
+    <div class="a" id="ad">
+        <center><img class="img2" src="mozg.png" style="vertical-align:middle" /></center>
+    </div>
+    <div id="footer">
+        <h3>
+            <center>258517</center>
+        </h3>
+    </div>
+    </div>
+</BODY>
+<FOOTER></FOOTER>
+
+</html>
