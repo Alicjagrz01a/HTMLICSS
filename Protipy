@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>KONCENTRAKCJA</title>
+    <style>
+        .body {
+            height: auto
+        }
+
+        #container {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #logo {
+            background-color: lightseagreen;
+            padding: 10px;
+            height: auto;
+        }
+
+        #nav {
+            float: left;
+            width: 120px;
+            color: white;
+            text-align: center;
+        }
+
+        #content {
+            float: left;
+            width: 600px;
+            padding: 20px;
+        }
+
+        #ad {
+            float: left;
+            width: 200px;
+            position: relative;
+
+        }
+
+        a:visited,
+        a:link,
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 100px;
+        }
+
+        .img2 {
+            flex: content;
+            width: 200px;
+            margin: auto;
+            min-height: 400px;
+            vertical-align: middle;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            right: auto;
+            left: auto;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .tekst {
+            text-align: center;
+        }
+
+        .a {
+            height: 850px;
+            background-color: lightseagreen;
+            padding: 10px;
+        }
+
+        #tytuły {
+            text-align: justify;
+        }
+
+        #footer {
+            clear: both;
+            background-color: mediumaquamarine;
+            color: black;
+            padding: 20px;
+            margin: 0px auto;
+            width: 960px;
+        }
+    </style>
+</head>
+
+<BODY>
+    <div id="container">
+        <div id="logo">
+            <center><img class="img1" src="PWR.png" style="width:900px; height:190px" /></center>
+        </div>
+        <div class="a" id="nav" style="text-decoration: none white" target="blank"></br></br>
+            <a href="Omnie.html">O mnie<br></a></br>
+            <a href="studia.html">Studia</a></br></br>
+            Sposoby na koncentracje</br></br>
+            <a href="techniki.html">Techniki efektywnego uczenia się</a></br></br>
+            <a href="Bibliografia.html">Spis stron</a>
+        </div>
+    </div>
+    <div id="content">
+        <h1 style="COLOR:#4a995b; text-align:center"> KONCENTRACJA</h1></br>
+        <b><u><span id="tekst">Krzyżówki i łamigłówki – tradycyjne ćwiczenie pamięci</u></br></b></span>
+        <p id="tytuły">
+            Bardzo dobre efekty przynosi wypełnianie krzyżówek, rozwiązywanie łamigłówek czy uzupełnianie sudoku.
+            Sposoby naszych rodziców i dziadków, choć niektórym mogą wydać się nudne i staroświeckie, nadal doskonale
+            sprawdzają się w kontekście codziennych ćwiczeń pamięci. Możemy je stosować nie tylko w domu, ale podczas
+            podróży autobusem, pociągiem czy stojąc w kolejce do lekarza. Gazetę z krzyżówkami dostaniemy w każdym
+            kiosku czy saloniku prasowym, ale pamiętajmy, że dziś bez trudu znajdziemy je również w wydaniu
+            internetowym. Warto je rozwiązywać, bo to nie tylko ćwiczy pamięć, ale i poprawia koncentrację, rozwija
+            twórcze myślenie oraz relaksuje.</br></p>
+
+        <b><u><span id="tekst">Gry planszowe – rodzinny trening dla mózgu</br></u></b></span>
+        <p id="tytuły">
+            Gry planszowe mogą zaangażować do treningu mózgu całą rodzinę oraz znajomych. Stanowią świetną zabawę, która
+            przy okazji niesie ze sobą wiele korzyści, m.in. rozwijają logiczne myślenie, czy też poprawiają
+            koncentrację – zmuszając do analizowania problemów oraz opracowywania strategii działania. Dodatkowo,
+            pobudzają do pracy obie półkule mózgowe – zarówno tę odpowiedzialną za abstrakcyjne i kreatywne myślenie,
+            jak i tę odpowiedzialną za logiczną analizę faktów. Przy okazji, uczą najmłodszych zasad ekonomii,
+            matematyki czy sztuki negocjacji.</br></p>
+
+        <span id="tekst"><u><b>Aplikacje poprawiające pracę mózgu – czyli gry na poprawę pamięci</u></br></b></span>
+        <p id="tytuły">
+            Jeżeli nie przekonuje nas staroświecki trening pamięci w postaci krzyżówek, wybierzmy coś bardziej na czasie
+            – zainstalujmy sobie na komputerze bądź smartfonie gry na poprawę pamięci. Ich niewątpliwą zaletą jest fakt,
+            że oprócz zapewnienia treningu dla mózgu, motywują też do codziennych ćwiczeń poprzez system przypomnień,
+            zdobywanie kolejnych poziomów i nagród, a także możliwość rywalizacji z innymi użytkownikami. Aplikacji
+            poprawiających pracę mózgu nie brakuje: do dyspozycji mamy zarówno te tradycyjne, np. gry pamięciowe memo,
+            jak również bardziej angażujące i interaktywne.</br></p>
+
+        <span id="tekst"><b><u>Czytanie książek – to także dobry sposób na koncentrację</u></br></b></span>
+        <p id="tytuły"></p>
+        Dziś, niestety coraz rzadziej oddajemy się lekturze książek – często po prostu z braku czasu. Najczęściej
+        czytamy treści internetowe, od których oczekujemy przede wszystkim konkretnych informacji, podanych w
+        możliwie jak najbardziej przystępnej formie. W efekcie, odzwyczajamy się od utrzymywania koncentracji przez
+        dłuższy czas. W rozwiązaniu tego problemu nie pomagają również portale społecznościowe, na które zaglądamy
+        po kilka, kilkanaście razy dziennie.</br></p>
+    </div>
+    <div class="a" id="ad">
+        <center><img class="img2" src="mozg.png" style="vertical-align:middle" /></center>
+    </div>
+    <div id="footer">
+        <h3>
+            <center>258517</center>
+        </h3>
+    </div>
+    </div>
+</BODY>
+<FOOTER></FOOTER>
+
+</html>
