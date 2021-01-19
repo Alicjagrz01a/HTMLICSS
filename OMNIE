@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>O mnie</title>
+    <style>
+        #container {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #logo {
+            background-color: lightseagreen;
+            padding: 10px;
+            height: auto;
+        }
+
+        #nav {
+            float: left;
+            width: 120px;
+            color: white;
+            text-align: center;
+        }
+
+        #content {
+            float: left;
+            width: 600px;
+            padding: 20px;
+            height: 1000px;
+        }
+
+        #ad {
+            float: left;
+            width: 200px;
+            position: relative;
+
+        }
+
+        a:visited,
+        a:link,
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 100px;
+        }
+
+        .img2 {
+            flex: content;
+            width: 200px;
+            margin: auto;
+            min-height: 400px;
+            vertical-align: middle;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            right: auto;
+            left: auto;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .a {
+            height: 1100px;
+            background-color: lightseagreen;
+            padding: 10px;
+        }
+
+        .intruz {
+            float: left;
+            width: 50%;
+            height: 50%;
+        }
+
+        .początek {
+            float: left;
+            width: 50%;
+        }
+
+        #opisk {
+            float: left;
+            width: 50%;
+            height: auto;
+
+        }
+
+        .ksiazka {
+            float: left;
+            height: 50%;
+            width: 50%;
+            text-align: center;
+        }
+
+        #footer {
+            clear: both;
+            background-color: mediumaquamarine;
+            color: black;
+            padding: 20px;
+            margin: 0px auto;
+            width: 960px;
+        }
+    </style>
+</head>
+
+<BODY>
+    <div id="container">
+        <div id="logo">
+            <center><img class="img1" src="PWR.png" style="width:900px; height:190px" /></center>
+        </div>
+        <div class="a" id="nav" style="text-decoration: none white" target="blank"></br></br>
+            O mnie</br></br>
+            <a href="studia.html">Studia</a></br></br>
+            <a href="protipy.html">Sposoby na koncentracje</br></a></br>
+            <a href="techniki.html"> Techniki efektywnego uczenia się</br></a></br>
+            <a href="Bibliografia.html">Spis stron</a>
+        </div>
+    </div>
+    <div id="content">
+        <h1 style="COLOR:#4a995b; text-align:center"> O MNIE </h1></br>
+        <div class="zainteresowania">
+            <div>
+                <h3 style=" text-align: center; border:1px solid black">Zainteresowania</h3>
+                <p>
+                    <div class="początek" style="width: 50%; text-align: center; list-style-type: circle">
+                        <ul>
+                            <li>psychologia</li>
+                            <li>kognitywistyka</li>
+                            <li>sport</li>
+                        </ul>
+                    </div>
+                    <div class="początek" style="width: 50% ;text-align: center;list-style-type: circle">
+                        <ul>
+                            <li>gotowanie</li>
+                            <li>taniec</li>
+                            <li>opowiadania</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+            <div class="ksiazka" style="float:left">
+                <h3>Ulubiona książka:</h3>
+                <p>,,Intruz" Stephanie Meyer </p>
+                <img src="intruz.png" style="width:200px; height:300px" />
+            </div>
+
+            <div class="ksiazka">
+                <h3>Ulubiony film:</h3>
+                <p>,,Skazani na Shawshank"</p>
+                <img src="skazani.png" style="width:200px; height:300px; vertical-align: middle"></br></br>
+            </div>
+
+            <div class="fizyczna" style="clear: both; text-align: center">
+                <h3>Ulubione aktywności fizyczne:</h3>
+                <p><u><h4>Streching</h4></u></p>
+                <p style="text-align: justify">   W stretchingu przybywa włókien mięśniowych na długość. Efektem tego jest większa elastyczność, gibkość oraz większe zakresy ruchomości w stawach. Mięsień, który wykonuję pracę w pełnych zakresach ruchomości będzie generował większą siłę. Dlatego uprawiając sporty siłowe wskazane jest się rozciągać, szczególnie po treningu.</p>
+                <p><u><h4>Taniec</h4></u></p>
+                <p style="text-align: justify">   Porównania sprawności mózgu tancerzy sportowych i 12 osób grupy kontrolnej wykonano z użyciem skali BIS (Behavioural Inhibition System, inteligencja ciała, zob. cielesno-kinestetyczna) oraz metodą obrazowania MRI mózgu. Lepsze wyniki uzyskano w grupie tancerzy. Metodą skanowania MRI wykazano również, że taniec zaskakująco szybko hamuje proces starzenia się. W wyniku badań grupy osób w wieku śr. 68 lat stwierdzono, że korzystne zmiany były widoczne już po tygodniowym kursie choreografii. Interdyscyplinarny zespół badawczy z Magdeburga adaptuje spostrzeżenia neurobiologów, tworząc programy fitness, zawierające procedury taneczne</p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="a" id="ad">
+        <center><img class="img2" src="mozg.png" style="vertical-align:middle" /></center>
+    </div>
+    <div id="footer">
+        <h3>
+            <center>258517</center>
+        </h3>
+    </div>
+    </div>
+</BODY>
+<FOOTER></FOOTER>
+
+</html>
