@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>STUDIA</title>
+    <style>
+        .body {
+            height: auto
+        }
+
+        #container {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #logo {
+            background-color: lightseagreen;
+            padding: 10px;
+            height: auto;
+        }
+
+        #nav {
+            float: left;
+            width: 120px;
+            color: white;
+            text-align: center;
+        }
+
+        #content {
+            float: left;
+            width: 600px;
+            padding: 20px;
+        }
+
+        #ad {
+            float: left;
+            width: 200px;
+            position: relative;
+
+        }
+
+        a:visited,
+        a:link,
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 100px;
+        }
+
+        .img2 {
+            flex: content;
+            width: 200px;
+            margin: auto;
+            min-height: 400px;
+            vertical-align: middle;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            right: auto;
+            left: auto;
+
+            transform: translate(-50%, -50%);
+        }
+
+        .a {
+            height: 850px;
+            background-color: lightseagreen;
+            padding: 10px;
+        }
+
+        #footer {
+            clear: both;
+            background-color: mediumaquamarine;
+            color: black;
+            padding: 20px;
+            margin: 0px auto;
+            width: 960px;
+        }
+    </style>
+</head>
+
+<BODY>
+    <div id="container">
+        <div id="logo">
+            <center><img class="img1" src="PWR.png" style="width:900px; height:190px" /></center>
+        </div>
+        <div class="a" id="nav" style="text-decoration: none white" target="blank"></br></br>
+            <a href="Omnie.html">O mnie<br></a></br>
+            Studia</br></br>
+            <a href="protipy.html">Sposoby na koncentracje</a></br></br>
+            <a href="techniki.html">Techniki efektywnego uczenia się</a></br></br>
+            <a href="Bibliografia.html">Spis stron</a>
+        </div>
+    </div>
+    <div id="content">
+        <h1 style="COLOR:#4a995b; text-align:center"> STUDIA</h1></br>
+        <span style="text-align: center">
+            <h2>Ulubiony kurs:</h2>
+        </span>
+        <p style="text-align: justify">Ulubionym jest kurs biologii, uczmy się wielu nowych i ciekawych rzeczy
+            dotyczących komórek w ludzkim ciele.
+            Jest on wymagający, ponieważ wiedza, którą musimy się posłużyć na kolokwium, jest szczegółowa.</p>
+        <span style="text-align:center">
+            <h2>Kilka słów o Politechnice</h2>
+        </span>
+        <p style="text-align: justify;">Według webometrycznego rankingu uniwersytetów świata ze stycznia 2019,
+            pokazującego zaangażowanie
+            instytucji akademickich w Internecie, uczelnia zajmuje 5. miejsce w Polsce wśród uczelni technicznych, a
+            na świecie 964. wśród wszystkich typów uczelni. W rankingu szkół wyższych „Perspektyw” Politechnika
+            Wrocławska zajęła w 2019 roku 3. miejsce wśród uczelni technicznych oraz 6. miejsce spośród wszystkich
+            uczelni akademickich w Polsce</p>
+        <span style="text-align: center">
+            <h2>Kierunek -> Biotech!</h2>
+        </span>
+        <p>Biotechnologia – interdyscyplinarna dziedzina nauki, wykorzystująca procesy biologiczne na skalę
+            przemysłową.</br>
+
+            <h5>Konwencja o różnorodności biologicznej ONZ podaje jedną z najszerszych definicji:</h5>
+
+            <p style="text-align: justify">Biotechnologia to używanie układów biologicznych, organizmów żywych lub ich
+                składników w celu
+                wytwarzania lub modyfikowania produktów lub procesów w określonym zastosowaniu.
+                Metody z zakresu biotechnologii są wykorzystywane od tysięcy lat. Przykładowo produkcja piwa jest
+                procesem biotechnologicznym, w którym wykorzystuje się fermentację cukrów prostych przez drożdże. W
+                wyniku niedostatecznej ilości tlenu utlenianie jest niezupełne i następuje fermentacja. Innym przykładem
+                jest produkcja przetworów mlecznych.</br></p>
+
+            <p style="text-align: justify">Zdolność części bakterii do akumulacji w swoich komórkach niektórych metali
+                wykorzystywana jest w
+                górnictwie do bioługowania. Biotechnologia znajduje także zastosowanie w recyklingu i oczyszczaniu
+                środowiska z zanieczyszczeń (bioremediacja) oraz produkcji broni biologicznej. Produktami biotechnologii
+                używanymi w genetyce i medycynie są także chipy DNA i wektory dla znaczników promieniotwórczych
+                używanych w medycynie nuklearnej.</p>
+    </div>
+    <div class="a" id="ad">
+        <center><img class="img2" src="mozg.png" style="vertical-align:middle" /></center>
+    </div>
+    <div id="footer">
+        <h3>
+            <center>258517</center>
+        </h3>
+    </div>
+    </div>
+</BODY>
+<FOOTER></FOOTER>
+
+</html>
